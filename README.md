@@ -17,7 +17,7 @@ Claude asks before it saves, replaces, or deletes anything. Editing a saved itin
 
 ## Data
 
-The plugin itself runs no code and stores nothing. Its skills are instructions for Claude. The bundled connector sends your requests and the trip details you share to your Tineo account at `https://api.tineo.ai/mcp`, over OAuth, and reads your trips from there. See the [Tineo privacy policy](https://tineo.ai/privacy) and [terms of service](https://tineo.ai/terms).
+The plugin itself runs no code and stores nothing. Its skills are instructions for Claude. The bundled connector sends your requests and the trip details you share to your Tineo account at `https://api.tineo.ai/mcp/claude`, over OAuth, and reads your trips from there. See the [Tineo privacy policy](https://tineo.ai/privacy) and [terms of service](https://tineo.ai/terms).
 
 ## Support
 

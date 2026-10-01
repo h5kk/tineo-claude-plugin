@@ -5,7 +5,8 @@
   "description": "Organize your travel plans with Tineo: see your trips and itineraries, plan a new trip, add bookings from pasted confirmations, and get day-of-travel briefings.",
   "author": { "name": "Tineo", "url": "https://tineo.ai" },
   "homepage": "https://tineo.ai",
-  "privacyPolicyUrl": "https://tineo.ai/privacy",
+  "repository": "https://github.com/h5kk/tineo-claude-plugin",
+  "documentationUrl": "https://api.tineo.ai/docs/claude.html",
   "license": "MIT",
   "keywords": ["travel", "itinerary", "trips", "flights"]
 }

@@ -2,7 +2,7 @@
   "mcpServers": {
     "tineo": {
       "type": "http",
-      "url": "https://api.tineo.ai/mcp"
+      "url": "https://api.tineo.ai/mcp/claude"
     }
   }
 }
