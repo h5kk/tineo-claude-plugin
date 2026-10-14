@@ -26,7 +26,7 @@ Use this skill to answer questions about trips already saved in the user's Tineo
 6. On request only:
    - Costs: `get_trip_expense_summary`.
    - Travel history and totals: `get_travel_stats`.
-   - Packing list: `generate_packing_list`. This saves a checklist to the trip, so confirm first. Pass `replace=true` only when the user explicitly asks to regenerate an existing list, and say that it overwrites unchecked items.
+   - Packing list: `generate_packing_list`. This saves a checklist to the trip, so confirm first. Call `packing_list_regenerate` only when the user explicitly asks to regenerate an existing list, and say that it replaces unchecked items.
 
 ## Output
 

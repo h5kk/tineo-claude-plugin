@@ -28,8 +28,8 @@ Use this skill to add bookings to a trip from text the user provides, with a pre
 
 ## Workflow: forwarding emails
 
-1. For "how do I forward booking emails", call `forwarding_address_get_or_create` with `operation=get` and share the address.
-2. Only if the user explicitly asks to create a personal address, call it with `operation=create` and `confirmed=true`. A requested friendly name needs a paid plan; if unavailable, explain that briefly without promoting an upgrade.
+1. For "how do I forward booking emails", call `forwarding_address_get` and share the address.
+2. Only if the user explicitly asks to create a personal address, call `forwarding_address_create` with `confirmed=true`. A requested friendly name needs a paid plan; if unavailable, explain that briefly without promoting an upgrade.
 
 ## Workflow: failed import
 
